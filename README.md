@@ -1,23 +1,25 @@
 # INTRODUCTION
- Hi,I'm sammie,I have been learning SQL for a while and this is my 1st project,This Project is to help me Optimize my Knowledge of SQL. 
+ Hi, I'm Sammie, I have been learning SQL for a while and I stumbled on Danny's Diner 8 weeks SQL challenge, SO I decided to work on it. This project enabled me put to work all that has been learnt overtime. 
 # PROBLEM STATEMENT
 
 # SKILLS DEMONSTRATED
-I used PostgreSQL,putting to use Clauses like  WHERE,LIMIT,GROUP BY,ORDER BY,JOINS,wINDOWS FUNCTION 
+I used PostgreSQL,putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
 # DATA SOURCING
  For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
- I created a Schema Named Assessment,You can Run the below Script to Create this tables too 
+ I created a Schema named dannys_diner,You can Run the below Script to Create this tables too
+ CREATE SCHEMA dannys_diner;
+ SET search_path = dannys_diner;
+
  
 Table 1- Sales Table
-create table assessment.sales_table 
-(
-		customer_id varchar(30),
-		order_date date,
-		product_id int
-)
+CREATE TABLE sales (
+  "customer_id" VARCHAR(1),
+  "order_date" DATE,
+  "product_id" INTEGER
+);
 
-insert into assessment.sales_table
-values ('A1', '2021-01-01', 1),
+insert into dannys_diner.sales_table
+values     ('A1', '2021-01-01', 1),
 	   ('A1', '2021-01-01', 2),
 	   ('A1', '2021-01-07', 2),
 	   ('A1', '2021-01-10', 3),
@@ -35,7 +37,7 @@ values ('A1', '2021-01-01', 1),
 
 
 Table 2 -Menu Table
-create table assessment.menu_table 
+create table dannys_diner.menu_table 
 (
 		product_id int,
 		product_name varchar(50),
@@ -43,20 +45,22 @@ create table assessment.menu_table
 )
 
 
-insert into assessment.menu_table
-VALUES (1, 'Salad', 10),
-	   (2, 'Coke', 15),
-	   (3, 'Rice', 12)
+INSERT INTO menu
+("product_id", "product_name", "price")
+VALUES
+  ('1', 'sushi', '10'),
+  ('2', 'curry', '15'),
+  ('3', 'ramen', '12');
 
 
 Table 3 - Members Table
-create table assessment.members_table 
+create table dannys_diner.members_table 
 (
 		customer_id varchar(30),
 		join_date date
 )
 
-insert into assessment.members_table
+insert into dannys_diner.members_table
 values 		('A1', '2021-01-07'),
 		('B1', '2021-01-09')
 			
