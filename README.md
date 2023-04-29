@@ -16,7 +16,7 @@ Danny has shared with you 3 key datasets for this case study:
 - I used PostgreSQL,putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
 
 # DATA SOURCING
--  For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
+ For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
  I created a Schema named dannys_diner, You can run the below Script to create these tables too:
  CREATE SCHEMA dannys_diner;
  SET search_path = dannys_diner;
