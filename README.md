@@ -1,12 +1,23 @@
 # INTRODUCTION
- Hi, I'm Sammie, I have been learning SQL for a while and I stumbled on Danny's Diner 8 weeks SQL challenge, SO I decided to work on it. This project enabled me put to work all that has been learnt overtime. 
+- Hi, I'm Sammie, I have been learning SQL for a while and I stumbled on Danny's Diner 8 weeks SQL challenge, SO I decided to work on it. This project enabled me put to work all that has been learnt overtime. 
 # PROBLEM STATEMENT
+Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
+
+He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.
+
+Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
+
+Danny has shared with you 3 key datasets for this case study:
+- Sales
+- Menu
+- Members 
 
 # SKILLS DEMONSTRATED
-I used PostgreSQL,putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
+- I used PostgreSQL,putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
+
 # DATA SOURCING
- For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
- I created a Schema named dannys_diner,You can Run the below Script to Create this tables too
+-  For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
+ I created a Schema named dannys_diner, You can run the below Script to create these tables too:
  CREATE SCHEMA dannys_diner;
  SET search_path = dannys_diner;
 
@@ -34,6 +45,8 @@ values     ('A1', '2021-01-01', 1),
 	   ('C1', '2021-01-01', 3),
 	   ('C1', '2021-01-01', 3),
 	   ('C1', '2021-01-07', 3);
+	   
+
 
 
 Table 2 -Menu Table
