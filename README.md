@@ -16,7 +16,7 @@ Danny has shared with you 3 key datasets for this case study:
 - Members 
 
 # SKILLS DEMONSTRATED
-- I used PostgreSQL,putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
+- I used PostgreSQL, putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
 
 # DATA SOURCING
  For this project I created 3 tables tagged Sales Table,Menu Table,Members Table
