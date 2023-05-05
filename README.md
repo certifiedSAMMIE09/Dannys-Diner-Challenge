@@ -21,6 +21,14 @@ Danny has shared with you 3 key datasets for this case study:
 # DATA SOURCING
  All datasets exist within the dannys_diner database schema
  
+ ### Table 1: Sales
+ 
+ The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+ 
+![](2.png)
+ 
+ ### Table 2: Menu
+The menu table maps the product_id to the actual product_name and price of each menu item.
  
 
  
