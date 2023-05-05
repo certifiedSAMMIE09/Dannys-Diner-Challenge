@@ -1,5 +1,5 @@
 # INTRODUCTION
-- Hi, I'm Sammie, I have been learning SQL for a while and I stumbled on Danny's Diner 8 weeks SQL challenge, So I partook in this challenge. This project enabled me put to work all that has been learnt overtime. 
+Hi, I have been learning SQL for a while and I stumbled on Danny's Diner 8 weeks SQL challenge, So I partook in this challenge. This project enabled me put to work all that has been learnt overtime. 
 
 ![](1.png)
 
@@ -16,7 +16,7 @@ Danny has shared with you 3 key datasets for this case study:
 - Members 
 
 # SKILLS DEMONSTRATED
-- I used PostgreSQL, putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
+I used PostgreSQL, putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
 
 # DATA SOURCING
  All datasets exist within the dannys_diner database schema
@@ -28,7 +28,16 @@ Danny has shared with you 3 key datasets for this case study:
 ![](2.png)
  
  ### Table 2: Menu
+
 The menu table maps the product_id to the actual product_name and price of each menu item.
+
+![](3.png)
+
+### Table 3: Members
+
+The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+
+![](4.PNG)
  
 
  
