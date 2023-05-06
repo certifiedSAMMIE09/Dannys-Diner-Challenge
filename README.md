@@ -19,11 +19,14 @@ Danny has shared with you 3 key datasets for this case study:
 I used PostgreSQL, putting to use clauses like WHERE, LIMIT, GROUP BY, ORDER BY, JOINS, WINDOWS FUNCTION 
 
 # DATA SOURCING
- All datasets exist within the dannys_diner database schema
+ All datasets exist within the dannys_diner database schema and can be found [here](https://8weeksqlchallenge.com/case-study-1/).
+
+
+
  
  ### Table 1: Sales
  
- The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+ The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered. 
  
 ![](2.png)
  
