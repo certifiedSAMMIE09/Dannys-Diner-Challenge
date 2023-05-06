@@ -1,0 +1,52 @@
+create table dannys_diner.sales 
+(
+		customer_id varchar(30),
+		order_date date,
+		product_id int
+)
+
+insert into dannys_diner.sales
+values ('A1', '2021-01-01', 1),
+	   ('A1', '2021-01-01', 2),
+	   ('A1', '2021-01-07', 2),
+	   ('A1', '2021-01-10', 3),
+	   ('A1', '2021-01-11', 3),
+	   ('A1', '2021-01-11', 3),
+	   ('B1', '2021-01-01', 2),
+	   ('B1', '2021-01-02', 2),
+	   ('B1', '2021-01-04', 1),
+	   ('B1', '2021-01-11', 1),
+	   ('B1', '2021-01-16', 3),
+	   ('B1', '2021-02-01', 3),
+	   ('C1', '2021-01-01', 3),
+	   ('C1', '2021-01-01', 3),
+	   ('C1', '2021-01-07', 3);
+
+
+
+create table dannys_diner.menu
+(
+		product_id int,
+		product_name varchar(50),
+		price int
+)
+
+
+insert into dannys_diner.menu
+values	 (1, 'Sushi', 10),
+	   (2, 'Curry', 15),
+	   (3, 'Ramen', 12)
+
+
+
+create table dannys_diner.members
+(
+		customer_id varchar(30),
+		join_date date
+)
+
+insert into dannys_diner.members
+values 		('A1', '2021-01-07'),
+		('B1', '2021-01-09')
+			
+		
